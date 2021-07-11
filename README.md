@@ -79,7 +79,7 @@ Each one has its own package.json as they are separated projects. *App* is the w
 
 * Follow the Firebase wizard steps; 
 * In the terminal, open the project folder, type the command `firebase init` and follow instructions; 
-* Create a *launch.json* file in the *.vscode* folder and configure it like this:
+* Create a `launch.json` file in the *.vscode* folder and configure it like this:
 
 ```json
 "version": "0.2.0",
