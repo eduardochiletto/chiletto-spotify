@@ -1,0 +1,489 @@
+/*** Colors ***/
+
+a,
+a:focus,
+a:visited,
+.btn.btn-white:hover,
+.btn.btn-white:hover:focus,
+.btn.btn-white:hover:active,
+.btn.btn-white:hover:visited,
+.btn.btn-white.btn-border:hover,
+.btn.btn-white.btn-border:hover:focus,
+.btn.btn-white.btn-border:hover:active,
+.btn.btn-white.btn-border:hover:visited,
+.btn.btn-simple.btn-primary .fa,
+.cps-theme-bg .big-play-btn,
+.cps-gradient-round .big-play-btn,
+.cps-theme-bg .big-play-btn:focus,
+.cps-theme-bg .big-play-btn:visited,
+.cps-theme-bg .big-play-btn:active,
+.cps-gradient-round .big-play-btn:focus,
+.cps-gradient-round .big-play-btn:visited,
+.cps-gradient-round .big-play-btn:active,
+.navbar-default .navbar-nav>li:hover a,
+.navbar-default .navbar-nav>li.active a,
+.navbar-default .navbar-nav>li.current a,
+.navbar-default.style-3 .navbar-nav>li.login-item>a,
+.navbar-default.style-5 .navbar-nav>li.login-item>a,
+.navbar-default.style-12 .navbar-nav>li.login-item>a,
+.navbar-default.style-6 .navbar-nav>li.login-item>a:hover,
+.navbar-default.style-7 .navbar-nav>li.login-item>a:hover,
+.cps-banner.style-4 .cps-banner-form [type=submit]:hover,
+.cps-banner.style-14 .cps-banner-form [type=submit]:hover,
+.cps-banner.style-5 .sign-in-text a:hover,
+.cps-service-box.style-2 .cps-service-icon span,
+.cps-service-box.style-2:hover .cps-service-title,
+.cps-service-box.style-4 .cps-service-icon span,
+.cps-service-box.style-4:hover .cps-service-title,
+.cps-service-box.style-5 .cps-service-icon span,
+.cps-service-box.style-6 .cps-service-icon span,
+.cps-service-box.style-6:hover .cps-service-title,
+.cps-service.style-4 .cps-service-icon span,
+.feature-list li span,
+.mocked-features .feature-item .feature-icon,
+.feature-tabs .nav-tabs li a .fa,
+.option-box h4,
+.option-box a,
+.cps-package .cps-pack-price,
+.mini-fact .mini-fact-count,
+.cps-case-study .cps-case-title a:hover,
+.cps-case-study .cps-case-btns a:hover,
+.cps-testimonials-wrap.style-2 .cps-testimonial-item blockquote:before,
+.instruction-tabs .nav-tabs li a:hover,
+.instruction-tabs .nav-tabs li a span,
+.cps-post .cps-post-title a:hover,
+.cps-cta.style-3 .cps-cta-text a:hover,
+.cps-cta.style-4 .cps-cta-text a:hover,
+.cps-contact-form [type=submit],
+.subscription-style-2 .subscription-social a:hover,
+footer .cps-footer-widget-area .cps-widget ul li a:hover,
+footer .cps-footer-widget-area .contact-list li .contact-item-icon,
+footer .cps-footer-lower a:hover,
+footer.style-2 .cps-footer-widget-area .cps-widget ul li a:hover,
+footer.style-3 .cps-footer-widget-area .cps-widget-title,
+footer.style-3 .cps-footer-lower a:hover,
+footer.style-4 .cps-footer-lower a:hover,
+footer.style-5 .cps-footer-widget-area .cps-widget .cps-socials a,
+footer.style-5 .cps-footer-lower a:hover,
+footer.style-6 .cps-footer-upper .cps-socials a,
+footer.style-6 .cps-footer-lower a:hover,
+footer.style-7 .cps-footer-upper .cps-socials a,
+footer.style-7 .cps-footer-lower a:hover,
+.breadcrumb li a:hover,
+.post-list .post-title a:hover,
+.page-numbers:hover,
+a.page-numbers:hover,
+.sidebar .widget .widget-subscription [type=submit],
+.sidebar .widget ul li a:hover,
+.sidebar .recent-post .post-title:hover,
+.post-single .post-metas a:hover,
+.comments-section .comment-reply:hover,
+.navbar-default .navbar-nav>li:hover a,
+.navbar-default .navbar-nav>li.active a,
+.navbar-default .navbar-nav>li.current a,
+footer .cps-footer-widget-area .cps-widget ul li a:hover,
+footer.style-4 .cps-footer-widget-area .cps-widget ul li a:hover,
+.how-it-work-process .process-item .fa,
+.cps-member.style-3 .cps-member-socials a,
+footer.style-8 .cps-socials a,
+footer.style-8 a:hover,
+.sm-play-btn,
+.sm-play-btn:focus,
+.sm-play-btn:visited,
+.sm-play-btn:active,
+.cps-package.style-5.special .btn,
+.connection-content h3, .cps-theme-color,
+.cps-subscription [type=submit],
+.cps-countdown-item .cps-banner-form [type=submit],
+.screenshot-container #previous, .screenshot-container #next,
+.cps-column-2-feature .cps-feature-icon,
+footer.style-9 .cps-socials a:hover{
+    color: #ee0979;
+}
+
+
+/*** Background color ***/
+
+.cps-theme-bg,
+.btn.btn-purple:hover,
+.btn.btn-purple:hover:focus,
+.btn.btn-purple:hover:active,
+.btn.btn-purple:hover:visited,
+.btn.btn-shadow:hover,
+.btn.btn-shadow:hover:focus,
+.btn.btn-shadow:hover:active,
+.btn.btn-shadow:hover:visited,
+.big-play-btn,
+.navbar-default .navbar-nav>li.solid-item a,
+.navbar-default .navbar-nav .dropdown .dropdown-menu>li:hover>a,
+.navbar-default.style-2.affix,
+.navbar-default.style-3.affix,
+.navbar-default.style-5 .navbar-nav>li.login-item>a:hover,
+.navbar-default.style-12 .navbar-nav>li.login-item>a:hover,
+.navbar-default.style-6.affix,
+.feature-tabs .nav-tabs li.active a,
+.instruction-tabs .nav-tabs>li.active>a,
+.instruction-tabs .nav-tabs>li.active>a:hover,
+.instruction-tabs .nav-tabs>li.active>a:focus,
+.instruction-tabs .nav-tabs>li.active>a:visited,
+.subscription-style-3 .cps-subscription [type=submit],
+footer .cps-footer-widget-area .cps-widget .recent-post .recent-post-date,
+footer .cps-footer-widget-area .widget-socials a,
+footer.style-5 .cps-footer-widget-area .cps-widget .cps-socials a:hover,
+footer.style-6 .cps-footer-upper .cps-socials a:hover,
+footer.style-7 .cps-footer-upper .cps-socials a:hover,
+.sidebar .widget-social a,
+.btn.btn-border:hover,
+.btn.btn-border:hover:focus,
+.btn.btn-border:hover:active,
+.btn.btn-border:hover:visited,
+.cps-banner-slider-2 .slick-dots li.slick-active button,
+footer.style-8 .cps-socials a:hover,
+.screenshot-slick-container .slick-dots li button,
+.navbar-default.style-10.affix, .connection-content .icon,
+.page-header.style-9,
+.cps-gray-bg .cps-column-2-feature .cps-feature-icon,
+footer.style-9{
+    background-color: #ee0979;
+}
+
+
+/*** Background color / bg image none ***/
+
+.btn.btn-primary,
+.btn.btn-primary:focus,
+.btn.btn-primary:visited,
+.btn.btn-primary:active,
+.btn.btn-primary:active:focus,
+.btn.btn-red:hover,
+.btn.btn-red:hover:focus,
+.btn.btn-red:hover:active,
+.btn.btn-red:hover:visited,
+.cps-banner.style-4,
+.cps-banner.style-14 {
+    background-image: none;
+    background-color: #ee0979;
+}
+
+
+/*** Border gradient ***/
+
+.cps-service-box,
+.cps-package .cps-package-header,
+.cps-contact-form.style-2 input:not([type=submit]):not([type=radio]):not([type=checkbox]),
+.cps-contact-form.style-2 select,
+.cps-contact-form.style-2 textarea,
+.cps-404-content [type=submit]{
+    -o-border-image: linear-gradient(to right, #ee0979, #ff6a00);
+    border-image: -webkit-gradient(linear, left top, right top, from(#ee0979), to(#ff6a00));
+    border-image: linear-gradient(to right, #ee0979, #ff6a00);
+}
+
+
+/*** Background gradient (primary1 to primary2) ***/
+
+.cps-gradient-bg,
+.btn,
+.btn:focus,
+.btn:visited,
+.btn:active,
+.btn:active:focus,
+.navbar-default.style-5 .navbar-nav>li.signup-item>a,
+.navbar-default.style-12 .navbar-nav>li.signup-item>a,
+.navbar-default.style-8 .navbar-nav>li.signup-item>a,
+.navbar-default.style-9 .navbar-nav>li.signup-item>a,
+.cps-banner.style-3,
+.cps-banner.style-7 .cps-banner-form [type=submit],
+.cps-banner.style-9 .cps-banner-form [type=submit],
+.cps-progress-item .progress-bar,
+.cps-service-box .cps-service-icon span,
+.cps-service-box:hover .cps-service-title,
+.cps-service .cps-service-icon span,
+.filter-button-group button.active,
+.style-3 .cps-testimonials-wrap .cps-testimonial-item blockquote:before,
+.subscription-style-4 .cps-subscription [type=submit],
+.post-single .post-share,
+.cps-banner.style-10,
+.cps-faq-accordion.style-2 .panel-group .panel.panel-default>.panel-heading>.panel-title>a,
+.cps-service.style-6:hover .cps-service-icon,
+.cps-service.style-6 .cps-service-icon span,
+.cps-service.style-6 .cps-service-title,
+.mini-fact-wrap.style-2 .mini-fact .mini-fact-count,
+.cps-cta .cps-cta-title.gradient-color,
+.screenshot-slick-container .slick-dots li.slick-active button,
+.cps-package.style-5.special,
+.cps-contact-form.style-2 [type=submit],
+.page-header.style-2,
+.cps-404-content [type=submit],
+.cps-contact-form [type=submit],
+.account-form [type=submit],
+.comingsoon-footer,
+.preloader-round{
+    background-image: -webkit-gradient(linear, left top, right top, from(#ee0979), to(#ff6a00));
+    background-image: linear-gradient(to right, #ee0979, #ff6a00);
+}
+
+
+/*** Background gradient (primary to primary) ***/
+
+.btn:hover,
+.btn:hover:focus,
+.btn:hover:active,
+.btn:hover:visited,
+.navbar-default.style-5 .navbar-nav>li.signup-item>a:hover,
+.navbar-default.style-12 .navbar-nav>li.signup-item>a:hover,
+.navbar-default.style-8 .navbar-nav>li.signup-item>a:hover,
+.cps-banner.style-9 .cps-banner-form [type=submit]:hover,
+.account-form [type=submit]:hover{
+    background-image: -webkit-gradient(linear, left top, right top, from(#ee0979), to(#ee0979));
+    background-image: linear-gradient(to right, #ee0979 0%, #ee0979 100%);
+}
+
+
+/*** Text gradient ***/
+
+.cps-counter-item.style-2 .cps-counter-icon span,
+.style-3 .cps-testimonials-wrap .cps-testimonial-item blockquote:before,
+.mocked-features.style-3 .feature-item .feature-icon span,
+.cps-section-header.style-2 .cps-section-title,
+.cps-package.style-5 .cps-pack-price,
+.cps-post.style-3 .cps-post-title,
+.cps-404-title{
+    background: -webkit-gradient(linear, left top, right top, from(#ee0979), to(#ff6a00));
+    background: linear-gradient(to right, #ee0979 0%, #ff6a00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.client-ie .cps-counter-item.style-2 .cps-counter-icon span,
+.client-ie .style-3 .cps-testimonials-wrap .cps-testimonial-item blockquote:before,
+.client-ie .mocked-features.style-3 .feature-item .feature-icon span,
+.client-ie .cps-section-header.style-2 .cps-section-title,
+.client-ie .cps-package.style-5 .cps-pack-price,
+.client-ie .cps-post.style-3 .cps-post-title,
+.client-ie .cps-404-title{
+    background-image: none;
+}
+
+
+/*** Text fill ***/
+
+.cps-service-box.style-2 .cps-service-icon span,
+.cps-service-box.style-2:hover .cps-service-title,
+.cps-service-box.style-4 .cps-service-icon span,
+.cps-service-box.style-4:hover .cps-service-title,
+.cps-service-box.style-5 .cps-service-icon span,
+.cps-service-box.style-6 .cps-service-icon span,
+.cps-service-box.style-6:hover .cps-service-title,
+.cps-service.style-4 .cps-service-icon span,
+.cps-service.style-5 .cps-service-icon span {
+    -webkit-text-fill-color: #ee0979;
+}
+
+
+/*** Border-color ***/
+
+.btn.btn-border,
+.btn.btn-border:hover,
+.btn.btn-border:hover:focus,
+.btn.btn-border:hover:active,
+.btn.btn-border:hover:visited,
+.navbar-default.style-5 .navbar-nav>li.login-item>a,
+.navbar-default.style-12 .navbar-nav>li.login-item>a,
+.cps-service-box.style-5,
+.cps-service-box.style-6,
+.feature-tabs .nav-tabs li a:after,
+.cps-package.style-3 .cps-package-header,
+.instruction-tabs .nav-tabs li a,
+.instruction-tabs .nav-tabs li.active a:hover,
+.instruction-tabs .nav-tabs li.active a:focus,
+input:not([type=submit]):not([type=radio]):not([type=checkbox]),
+select,
+textarea,
+.subscription-style-3 .subscription-container,
+.subscription-style-3 .cps-subscription [type=submit],
+footer.style-3 .cps-footer-lower .container,
+.page-numbers.current,
+a.page-numbers.current,
+.sidebar .widget .widget-title,
+.sidebar .tags a:hover,
+.post-single .post-entry blockquote,
+.cps-column-2-feature .cps-feature-icon{
+    border-color: #ee0979;
+}
+
+
+/**** Text decoration color ****/
+
+.cps-cta.style-3 .cps-cta-text a,
+.cps-cta.style-4 .cps-cta-text a {
+    -webkit-text-decoration-color: #ee0979;
+    text-decoration-color: #ee0979;
+}
+
+
+/*** Secondary color ***/
+
+a:hover,
+.cps-contact-form [type=submit]:hover,
+.sm-play-btn:hover {
+    color: #ff6a00;
+}
+
+
+/*** Secondary background ***/
+
+.btn.btn-primary:hover,
+.btn.btn-primary:hover:focus,
+.btn.btn-primary:hover:active,
+.btn.btn-primary:hover:visited,
+.cps-banner-slider-2 .slick-dots li button,
+.navbar-default.style-10 .navbar-nav>li.login-item>a, .cps-banner.style-13 .cps-banner-form [type=submit]{
+    background-color: #ff6a00;
+    color: #262626;
+}
+
+
+/*** Secondary Border ***/
+.navbar-default.style-10 .navbar-nav>li.login-item>a {
+    border-color: #ff6a00;
+}
+
+
+/*** Other background color ***/
+
+.cps-progress-item .progress {
+    background-color: rgba(238, 9, 121, 0.11);
+}
+
+.cps-testimonials-wrap.style-2 .testimonial-carousel .owl-prev:hover,
+.cps-testimonials-wrap.style-2 .testimonial-carousel .owl-next:hover {
+    background-color: rgba(238, 9, 121, 0.55);
+}
+
+.cps-member.style-3 .cps-member-hover,
+.cps-banner.style-11 .cps-banner-item:before,
+.cps-image-bg-4 .cps-overlay,
+.cps-image-bg-5 .cps-overlay,
+.cps-image-bg-6 .cps-overlay {
+    background-image: -moz-linear-gradient( to right, rgba(238, 9, 121, 0.8) 0%, rgba(255, 206, 0, 0.8) 100%);
+    background-image: -webkit-linear-gradient( to right, rgba(238, 9, 121, 0.8) 0%, rgba(255, 206, 0, 0.8) 100%);
+    background-image: -ms-linear-gradient( to right, rgba(238, 9, 121, 0.8) 0%, rgba(255, 206, 0, 0.8) 100%);
+    background-image: linear-gradient( to right, rgba(238, 9, 121, 0.8) 0%, rgba(255, 206, 0, 0.8) 100%);
+}
+
+.pink-orange .cps-member.style-3 .cps-member-name {
+    color: #ffffff;
+}
+
+.pink-orange .cps-member.style-3 .cps-member-position {
+    color: #ffffff;
+}
+
+.cps-third-bg{
+    background-color: #e5f7fd;
+}
+
+/*** Other Border Color ***/
+
+.cps-banner.style-9 .cps-banner-form [type=email],
+.subscription-style-4 .cps-subscription input:not([type=submit]):not([type=radio]):not([type=checkbox]),
+select,
+textarea {
+    border-color: rgba(238, 9, 121, 0.33);
+}
+
+
+/*** color fix ***/
+
+.btn.btn-white.btn-border:hover,
+.btn.btn-white.btn-border:hover:focus,
+.btn.btn-white.btn-border:hover:active,
+.btn.btn-white.btn-border:hover:visited {
+    border-color: #ffffff;
+}
+
+/*** Animated connection icon ***/
+.connection-content .icon{
+    box-shadow: 0 0 0px 0px rgba(238, 9, 121, 0.99); 
+}
+
+@keyframes  connection {
+    from {box-shadow: 0 0 0px 0px rgba(238, 9, 121, 0.99); }
+    to {box-shadow: 0 0 0px 20px rgba(238, 9, 121, 0.00); }
+}
+
+@media screen and (max-width: 991px) {
+    .navbar-default .navbar-toggle {
+        border-color: #ee0979;
+        background-color: #ee0979;
+    }
+    .navbar-default .navbar-toggle:focus,
+    .navbar-default .navbar-toggle:hover {
+        background-color: #ee0979;
+    }
+    .navbar-default .navbar-toggle.collapsed .icon-bar {
+        background-color: #ee0979;
+    }
+    .navbar-default.style-2 .navbar-toggle .icon-bar,
+    .navbar-default.style-3 .navbar-toggle .icon-bar,
+    .navbar-default.style-6 .navbar-toggle .icon-bar,
+    .navbar-default.style-7 .navbar-toggle .icon-bar,
+    .navbar-default.style-10 .navbar-toggle .icon-bar{
+        background-color: #ee0979;
+    }
+    .navbar-default.style-2 .navbar-collapse,
+    .navbar-default.style-3 .navbar-collapse,
+    .navbar-default.style-6 .navbar-collapse,
+    .navbar-default.style-7 .navbar-collapse,
+    .navbar-default.style-10 .navbar-collapse,
+    .cps-banner .cps-banner-item-14{
+        background-color: #ee0979;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-default.style-2,
+    .navbar-default.style-3,
+    .navbar-default.style-6,
+    .navbar-default.style-7,
+    .navbar-default.style-10{
+        background-color: #ee0979;
+    }
+    .navbar-default .navbar-toggle .icon-bar{
+        background-color: #ee0979 !important;
+    }
+}
+
+
+
+/*** Background images ***/
+
+.cps-curve-bg-2{
+    background-image: url(../../images/bg/curve-2.1.svg) !important;
+}
+
+.cps-curved-bg-2 {
+    background-image: url(../../images/bg/curve-4.1.svg) !important;
+    opacity: 0.9;
+}
+
+.cps-curved-bg-2:before {
+    background-image: url(../../images/bg/curve-5.1.svg) !important;
+}
+
+/*** Background Image ***/
+.cps-banner-item-14 {
+    background-image: url(../../images/banner/14.1.png);
+}
+
+.cps-curved-bg-2 .mocked-features {
+    color: #ffffff;
+}
+
+.cps-gradient-bg input:not([type=submit]):not([type=radio]):not([type=checkbox]),
+select,
+textarea {
+    border-color: #ffffff;
+    color: #ffffff;
+}

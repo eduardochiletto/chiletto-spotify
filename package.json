@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "nodemon": "^2.0.9",
+    "request": "^2.88.2",
+    "spotify-web-api-node": "^5.0.2"
+  }
+}

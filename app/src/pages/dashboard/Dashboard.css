@@ -1,0 +1,64 @@
+body {
+    
+    min-height: 100vh;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: -ms-flex;
+    display: -webkit-box;
+    display: flex;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+
+    background-image: linear-gradient(transparent, #000) !important;
+
+  }
+
+
+.alCenter {
+    margin: auto;
+    width: 280px;
+    padding: 10px;
+}
+
+img {
+    width: 150px !important;
+    margin-left: 44px;
+    margin-top: 10px;
+}
+
+.spotifyButton {
+    background-color: #4CAF51 !important;
+    color: white !important;
+    position: relative !important;
+    top: 7px !important;
+    width: 100%;
+}
+
+.playlist {
+    background-color: #2BD05E;
+    cursor: pointer;
+}
+
+.mosaic {
+    height: 40px ;
+    width: 40px !important;
+    position: relative;
+    top: -5px !important;
+    left: -35px;
+}
+
+.playListItems .ant-list-item-meta-title, .ant-list-item-meta-description  {
+    position: relative !important;
+    left: -40px !important;
+    color: white !important;    
+}
+
+
+.dashboardSpin {
+    position: relative;
+    margin-left: 25px !important;
+    z-index: 99999999999 !important;
+}

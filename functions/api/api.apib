@@ -1,0 +1,225 @@
+FORMAT: 1A
+HOST: https://us-central1-spotify-egcch.cloudfunctions.net/api/v1
+
+# Chiletto Spotify - API Documentation
+<div style="width: 100%; text-align: right; position: relative; top: -30px; !important"> v. 0.0.1 </div>
+
+# Group Start
+
+
+::: note
+## Notes
+
+* This manual presents the integration documentation for Chiletto Spotify api
+
+* [Source code on github](https://github.com/eduardochiletto/egcch-spotify)
+
+
+# Group User Management
+
+
+## Get User [/database/user/get/{email}/{password}]
+
+
+### Get [GET]
+
++ Parameters
+    + email: `user@youremail.com` (string, required) - The User email
+    + password: `123456` (string, required) - The User password
+
+
++ Request
+
+    + Headers
+
+            Accept: application/json
+            Content-Type: application/json
+
+
++ Response 200 (application/json)
+    + Attributes (ResponseUserGet)
+
++ Response 404 (application/json)
+    + Attributes (Response404)
+
++ Response 500 (application/json)
+    + Attributes (Response500)
+
+
+## Create [/database/user/]
+### Create [POST]
+
++ Request
+
+    + Headers
+
+            Accept: application/json
+            Content-Type: application/json
+            Authorization: bearer jwt-token
+
++ Attributes (CreateUser)            
+
++ Response 201 (application/json)
+    + Attributes (ResponseCreate)
+
+
++ Response 403 (application/json)
+    + Attributes (Response403)
+
++ Response 500 (application/json)
+    + Attributes (Response500)
+
+## Update [/database/user/update]
+### Update [PUT]
+
++ Request
+
+    + Headers
+
+            Accept: application/json
+            Content-Type: application/json
+            Authorization: bearer jwt-token
+
++ Attributes (CreateUser)            
+
++ Response 200 (application/json)
+    + Attributes (Response200)
+
++ Response 404 (application/json)
+    + Attributes (Response404)
+
++ Response 500 (application/json)
+    + Attributes (Response500)
+
+
+# Group Spotify
+
+
+## Connect [/spotify/connect]
+### Connect [POST]
+
++ Request
+
+    + Headers
+
+            Accept: application/json
+            Content-Type: application/json
+            Authorization: bearer jwt-token
+            Code: Code informed by spotify in the "code" parameter of the url
+
+
++ Response 200 (application/json)
+    + Attributes (Response200)
+
++ Response 400 (application/json)
+    + Attributes (Response400)
+
++ Response 403 (application/json)
+    + Attributes (Response403)
+
++ Response 500 (application/json)
+    + Attributes (Response500)
+
+
+## Playlists [/spotify/playlists]
+### Playlists [GET]
+
++ Request
+
+    + Headers
+
+            Accept: application/json
+            Content-Type: application/json
+            Authorization: bearer jwt-token
+
+
++ Response 200 (application/json)
+    + Attributes (ResponseSpotifyPlaylists200)
+
++ Response 400 (application/json)
+    + Attributes (Response400)
+
++ Response 500 (application/json)
+    + Attributes (Response500)
+
+## Tracks [/spotify/tracks]
+### Tracks [GET]
+
++ Request
+
+    + Headers
+
+            Accept: application/json
+            Content-Type: application/json
+            Authorization: bearer jwt-token
+            Id: Playlist ID
+
+
++ Response 200 (application/json)
+    + Attributes (ResponseSpotifyTracks200)
+
++ Response 400 (application/json)
+    + Attributes (Response400)
+
++ Response 500 (application/json)
+    + Attributes (Response500)
+
+
+# Data Structures
+
+
+## Response200 (object)
++ code: 200 (number) - HTTP Code (Same result code)
++ message: Description (string) - Description 
+
+## ResponseCreate (object)
++ code: 201 (number) - HTTP Code (Same result code)
++ message: User Created (string) - User Created
+
+## Response400 (object)
++ code: 404 (number) - HTTP Code (Same result code)
++ message: Bad request
+
+
+## Response403 (object)
++ code: 403 (number) - HTTP Code (Same result code)
++ error: Description (string) - Description
+
+## Response404 (object)
++ code: 404 (number) - HTTP Code (Same result code)
++ error: User not found (string) - User not found
+
+
+## Response500 (object)
++ code: 500 (number) - HTTP Code (Same result code)
++ error: Description (string) - Description
+
+
+## ResponseUserGet
++ code: 200 (number) - HTTP Code (Same result code)
++ user (User) - User data
++ token: jwt token (string) - JWT Token
+
+## User  (object)
++ name: User Name (string) - User Name
++ email: User Email (string) - User Email
++ hasSpotify: true (boolean) - Indicates if the user has authorized spotify
+
+
+## CreateUser (object)
++ email: user@email.com (string, required) - The User email
++ password: 12346 (string, required) - The User password
++ name: Eduardo [Optional] (string) - The User name
+
+## ResponseSpotifyPlaylists200 (object)
++ code: 200 (number) - HTTP Code (Same result code)
++ message: Description (string) - Description 
++ playLists (array) -  List of Playlists 
+
+## ResponseSpotifyTracks200 (object)
++ code: 200 (number) - HTTP Code (Same result code)
++ message: Description (string) - Description 
++ tracks (array) -  Tracks of Playlist
+
+
+

@@ -1,0 +1,69 @@
+/*** Prealoder ***/
+.preloader-wrap{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ffffff;
+	z-index: 999;
+}
+.preloader{
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -40px;
+	margin-left: -40px;
+	transform: rotate(0deg);
+	transform-origin: center center;
+	animation-name: preloader;
+	animation-iteration-count: infinite;
+	animation-duration: 2s;
+	animation-timing-function: linear;
+}
+.preloader-round{
+	z-index: 2;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 50%;
+	width: 80px;
+	height: 80px;
+}
+.preloader-middle{
+	height: 100%;
+	position: absolute;
+	width: 20px;
+	top: 0;
+	left: 50%;
+	margin-left: -10px;
+	background-color: #fff;
+	z-index: 3;
+}
+.preloader-center{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	background-color: #ffffff;
+	z-index: 4;
+	border-radius: 50%;
+}
+
+@keyframes preloader{
+	0%   {transform: rotate(0deg);}
+    25%  {transform: rotate(90deg);}
+    50%  {transform: rotate(180deg);}
+    75% {transform: rotate(270deg);}
+    100% {transform: rotate(360deg);}
+}
+@-webkit-keyframes preloader {
+    0%   {transform: rotate(0deg);}
+    25%  {transform: rotate(90deg);}
+    50%  {transform: rotate(180deg);}
+    75% {transform: rotate(270deg);}
+    100% {transform: rotate(360deg);}
+}

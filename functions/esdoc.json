@@ -1,0 +1,6 @@
+{
+  "source": "./api",
+  "destination": "./docs",
+  "plugins": [{"name": "esdoc-standard-plugin"}],
+  "excludes": ["./nyc_outpu", "./node_modules", "./schemas"]
+}
