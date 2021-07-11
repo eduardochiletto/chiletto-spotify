@@ -8,7 +8,7 @@ const {
 /**
  * This class controls the User's collection. 
  * You can filter by e-mail and password or 
- * just email. You can also register 
+ * just e-mail. You can also register 
  * and update an user.
  * @name User
  * @class
