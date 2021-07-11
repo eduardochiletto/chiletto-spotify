@@ -17,11 +17,11 @@
 *****This project is based on didactic purposes*****
 
 * Create an api that lists Spotify's public playlists
-* It should use Node and Express
-* It should be documented
+* It use Node and Express
+* It is documented
 * It is tested by chai framework
-* It should focus on code reusability, performance and security
-* It should use json schema
+* focused on code reusability, performance and security
+* Use json schema
 
 <br />
 <br />
