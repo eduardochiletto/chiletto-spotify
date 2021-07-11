@@ -29,7 +29,6 @@
 ## Extras
 
 * Authentication using JWT
-* Deploy it (On Firebase)
 * Use Mongo as database
 * Use Mongoose as ORM
 * Use React
