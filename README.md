@@ -78,7 +78,7 @@ Each one has its own package.json as they are separated projects. *App* is the w
 * Go to the [Firebase Console](https://console.firebase.google.com/) and create a new project. If you don't know how, [here's a great tutorial](https://firebase.google.com/docs/web/setup?authuser=0); 
 
 * Follow the Firebase wizard steps; 
-* In the terminal, open the project folder and type the command `firebase init` and follow instructions; 
+* In the terminal, open the project folder, type the command `firebase init` and follow instructions; 
 * Create a *launch.json* file in the *.vscode* folder and configure it like this:
 
 ```json
