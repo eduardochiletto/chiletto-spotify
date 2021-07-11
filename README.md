@@ -100,7 +100,7 @@ Each one has its own package.json as they are separated projects. *App* is the w
 
 1. Once you have Firebase ready and running locally, go into the functions/ directory and first run `npm i` then type: `firebase emulators:start --only functions --inspect-functions`; 
 
-2. Maybe, on the first time that you run it, the console may ask for more settings. Follow standard instructions;
+2. Maybe, on the first time that you run it, the console may ask you for more settings. Follow standard instructions;
 
 3. Copy the fullpath url on console, open [firebase.js](https://github.com/eduardochiletto/chiletto-spotify/blob/main/app/src/firebase/firebase.js) file and paste it on `API_PATH` variable, including `/api/v1/` endpoint; 
 
