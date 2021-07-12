@@ -45,4 +45,5 @@ jobs:
           SPOTIFY_CLIENT_ID: ${{secrets.SPOTIFY_CLIENT_ID}}
           SPOTIFY_CLIENT_SECRET: ${secrets.SPOTIFY_CLIENT_SECRET}}
           SPOTIFY_REDIRECT_URL: ${secrets.SPOTIFY_REDIRECT_URL}}
+          CI_DEBUG_TRACE: true
           CI: true
