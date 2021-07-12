@@ -43,7 +43,7 @@ jobs:
           SPOTIFY_MONGO_PASSWORD: ${{secrets.SPOTIFY_MONGO_PASSWORD}}
           SPOTIFY_API: ${{secrets.SPOTIFY_API}}
           SPOTIFY_CLIENT_ID: ${{secrets.SPOTIFY_CLIENT_ID}}
-          SPOTIFY_CLIENT_SECRET: ${secrets.SPOTIFY_CLIENT_SECRET}}
-          SPOTIFY_REDIRECT_URL: ${secrets.SPOTIFY_REDIRECT_URL}}
+          SPOTIFY_CLIENT_SECRET: ${{secrets.SPOTIFY_CLIENT_SECRET}}
+          SPOTIFY_REDIRECT_URL: ${{secrets.SPOTIFY_REDIRECT_URL}}
           CI_DEBUG_TRACE: true
           CI: true
