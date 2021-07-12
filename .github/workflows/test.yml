@@ -20,8 +20,18 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
+      - name: setup node
+        uses: actions/setup-node@v2-beta
+        with:
+          node-version: '12'
+
+      - name: Npm Install
+        run: npm i
+
       # Runs a single command using the runners shell
       - name: Integration Test
         run: npm run test
+        with: 
+          FOLDER: ./functions
         env:
           CI: true
