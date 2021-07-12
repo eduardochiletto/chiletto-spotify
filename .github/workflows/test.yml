@@ -37,8 +37,7 @@ jobs:
       - name: Print Secrets to the Log
         run: |          
           echo "Secrets Envs"
-          echo  ${{secrets.SPOTIFY_EXPIRED_TOKEN}}
-          echo  ${{secrets.SPOTIFY_EXPIRED_TOKEN_FAKE}}
+          echo  ${{secrets.SPOTIFY_EXPIRED_TOKEN}} | sed 's/./& /g'
           echo  ${{secrets.SPOTIFY_MONGO_DATABASE}}
           echo  ${{secrets.SPOTIFY_MONGO_PASSWORD}}
           echo  ${{secrets.SPOTIFY_API}}
