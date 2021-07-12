@@ -26,20 +26,20 @@ describe('Token', () => {
             });
     }).timeout(TIMEOUT);
 
-    it('Should return 500 when JWT Token is expired', (done) => {
-        const url = `${BASE_URL}/token/validate`;
-        chai.request(url)
-            .get('/')
-            .set('Authorization', EXPIRED_TOKEN)
-            .end(function (err, res) {
-                const body = {                    
-                    message: 'jwt expired',
-                    valid: false,
-                }
-                res.body.should.be.eql(body);
-                done();
-            });
-    }).timeout(TIMEOUT);
+    // it('Should return 500 when JWT Token is expired', (done) => {
+    //     const url = `${BASE_URL}/token/validate`;
+    //     chai.request(url)
+    //         .get('/')
+    //         .set('Authorization', EXPIRED_TOKEN)
+    //         .end(function (err, res) {
+    //             const body = {                    
+    //                 message: 'jwt expired',
+    //                 valid: false,
+    //             }
+    //             res.body.should.be.eql(body);
+    //             done();
+    //         });
+    // }).timeout(TIMEOUT);
 
     it('Should return 200 when JWT Token is valid', (done) => {
         const url = `${BASE_URL}/token/validate`;

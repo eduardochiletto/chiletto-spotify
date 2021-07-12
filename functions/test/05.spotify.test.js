@@ -57,16 +57,16 @@ describe('Playlists', () => {
             });
     }).timeout(TIMEOUT);
 
-    it('Should return 500 when header Authorization has expired', (done) => {
-        const url = `${BASE_URL}/spotify/playlist`;
-        chai.request(url)
-            .get('/')
-            .set('Authorization', EXPIRED_TOKEN)
-            .end(function (err, res) {
-                expect(res).to.have.status(500);
-                done();
-            });
-    }).timeout(TIMEOUT);
+    // it('Should return 500 when header Authorization has expired', (done) => {
+    //     const url = `${BASE_URL}/spotify/playlist`;
+    //     chai.request(url)
+    //         .get('/')
+    //         .set('Authorization', EXPIRED_TOKEN)
+    //         .end(function (err, res) {
+    //             expect(res).to.have.status(500);
+    //             done();
+    //         });
+    // }).timeout(TIMEOUT);
 });
 
 describe('Tracks', () => {
@@ -111,16 +111,16 @@ describe('Tracks', () => {
 
 
 
-    it('Should return 500 when header Authorization has expired', (done) => {
-        const url = `${BASE_URL}/spotify/tracks`;
-        chai.request(url)
-            .get('/')
-            .set('Authorization', EXPIRED_TOKEN)
-            .end(function (err, res) {
-                expect(res).to.have.status(500);
-                done();
-            });
-    }).timeout(TIMEOUT);
+    // it('Should return 500 when header Authorization has expired', (done) => {
+    //     const url = `${BASE_URL}/spotify/tracks`;
+    //     chai.request(url)
+    //         .get('/')
+    //         .set('Authorization', EXPIRED_TOKEN)
+    //         .end(function (err, res) {
+    //             expect(res).to.have.status(500);
+    //             done();
+    //         });
+    // }).timeout(TIMEOUT);
 
 
 });
