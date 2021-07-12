@@ -34,6 +34,18 @@ jobs:
       - name: Npm Install
         run: npm i
 
+      - name: Print Secrets to the Log
+        run: |
+          echo "Secrets Envs"
+          echo  ${{test.SPOTIFY_EXPIRED_TOKEN}}
+          echo  ${{test.SPOTIFY_MONGO_DATABASE}}
+          echo  ${{test.SPOTIFY_MONGO_PASSWORD}}
+          echo  ${{test.SPOTIFY_API}}
+          echo  ${{test.SPOTIFY_CLIENT_ID}}
+          echo  ${{test.SPOTIFY_CLIENT_SECRET}}
+          echo  ${{test.SPOTIFY_REDIRECT_URL}}
+
+
       # Runs a single command using the runners shell
       - name: Integration Test
         run: npm run test
