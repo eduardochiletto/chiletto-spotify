@@ -7,6 +7,7 @@ const spotifyApi = new SpotifyWebApi({
     redirectUri: process.env.SPOTIFY_REDIRECT_URL,
 });
 
+
 /**
  * This class controls the Spotify's API. 
  * @name Spotify
