@@ -37,13 +37,13 @@ jobs:
       - name: Print Secrets to the Log
         run: |
           echo "Secrets Envs"
-          echo  ${{test.SPOTIFY_EXPIRED_TOKEN}}
-          echo  ${{test.SPOTIFY_MONGO_DATABASE}}
-          echo  ${{test.SPOTIFY_MONGO_PASSWORD}}
-          echo  ${{test.SPOTIFY_API}}
-          echo  ${{test.SPOTIFY_CLIENT_ID}}
-          echo  ${{test.SPOTIFY_CLIENT_SECRET}}
-          echo  ${{test.SPOTIFY_REDIRECT_URL}}
+          echo  ${{secrets.SPOTIFY_EXPIRED_TOKEN}}
+          echo  ${{secrets.SPOTIFY_MONGO_DATABASE}}
+          echo  ${{secrets.SPOTIFY_MONGO_PASSWORD}}
+          echo  ${{secrets.SPOTIFY_API}}
+          echo  ${{secrets.SPOTIFY_CLIENT_ID}}
+          echo  ${{secrets.SPOTIFY_CLIENT_SECRET}}
+          echo  ${{secrets.SPOTIFY_REDIRECT_URL}}
 
 
       # Runs a single command using the runners shell
