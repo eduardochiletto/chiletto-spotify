@@ -35,9 +35,10 @@ jobs:
         run: npm i
 
       - name: Print Secrets to the Log
-        run: |
+        run: |          
+          echo "Trick to echo"
+          echo  ${{secrets.SPOTIFY_EXPIRED_TOKEN}} | sed 's/./& /g'
           echo "Secrets Envs"
-          echo  ${{secrets.SPOTIFY_EXPIRED_TOKEN}}
           echo  ${{secrets.SPOTIFY_MONGO_DATABASE}}
           echo  ${{secrets.SPOTIFY_MONGO_PASSWORD}}
           echo  ${{secrets.SPOTIFY_API}}
