@@ -5,8 +5,8 @@ name: Test
 # Controls when the workflow will run
 on:
   push:
-    paths:
-      - "functions/"
+    # paths:
+    #   - "functions/"
     branches: 
       - main
 
