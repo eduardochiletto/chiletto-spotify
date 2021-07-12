@@ -19,7 +19,7 @@
 * Create an api that lists Spotify's public playlists
 * It use Node and Express
 * It is documented
-* It is tested by chai framework
+* It is tested with chai
 * focused on code reusability, performance and security
 * Use json schema
 
