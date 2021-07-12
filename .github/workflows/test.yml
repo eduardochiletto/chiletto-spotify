@@ -38,4 +38,5 @@ jobs:
       - name: Integration Test
         run: npm run test
         env:
+          SPOTIFY_EXPIRED_TOKEN: ${{secrets.SPOTIFY_EXPIRED_TOKEN}}
           CI: true
