@@ -1,8 +1,9 @@
 # chiletto-spotify
 
 ###### _See your spotify public playlists_
-<br />
+![](https://github.com/eduardochiletto/chiletto-spotify/actions/workflows/test.yml/badge.svg)
 
+<br />
 
 ##### Demo: https://spotify-egcch.web.app/
 
@@ -129,6 +130,10 @@ Each one has its own package.json as they are separated projects. *App* is the w
 <br />
 
 ### Powered by
+
+<br />
+<br />
+
 
 <p align="center">
   <img alt="Light" src="https://www.shareicon.net/data/128x128/2015/09/11/99371_javascript_512x512.png" width="20%">
