@@ -5,6 +5,8 @@ name: Test
 # Controls when the workflow will run
 on:
   push:
+    paths:
+      - "./functions"
     branches: 
       - main
 
@@ -31,7 +33,5 @@ jobs:
       # Runs a single command using the runners shell
       - name: Integration Test
         run: npm run test
-        with: 
-          FOLDER: ./functions
         env:
           CI: true
