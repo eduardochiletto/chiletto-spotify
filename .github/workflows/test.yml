@@ -6,7 +6,7 @@ name: Test
 on:
   push:
     paths:
-      - "./functions"
+      - "functions/"
     branches: 
       - main
 
