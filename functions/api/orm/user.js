@@ -107,7 +107,7 @@ class User {
       try {
         const doc = await UserSchema.findByIdAndUpdate(_id, user);
         return {
-          success: true,
+          success: doc !== null,
           user: doc,
         }
       } catch (error) {

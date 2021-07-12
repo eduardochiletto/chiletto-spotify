@@ -45,7 +45,7 @@ describe('Playlists', () => {
     }).timeout(TIMEOUT);
 
     it('Should return 200 when header Authorization is valid', (done) => {
-        const url = `${BASE_URL}/spotify/playlist`;
+        const url = `${BASE_URL}/spotify/playlists`;
         chai.request(url)
             .get('/')
             .set('Authorization', TOKEN)

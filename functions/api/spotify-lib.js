@@ -2,9 +2,9 @@ const SpotifyWebApi = require('spotify-web-api-node');
 
 // You need to create an application in https://developer.spotify.com/dashboard/login
 const spotifyApi = new SpotifyWebApi({
-    clientId: 'YOURCLIENTID',
-    clientSecret: 'YOURCLIENTSECRET',
-    redirectUri: `https://yourdomain.com/callback`
+    clientId: process.env.SPOTIFY_CLIENT_ID,
+    clientSecret: process.env.SPOTIFY_CLIENT_SECRET,
+    redirectUri: process.env.SPOTIFY_REDIRECT_URL,
 });
 
 /**

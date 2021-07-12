@@ -1,11 +1,10 @@
 const mongoose = require('mongoose');
-const password = '[YOURMONGOPASSWORD]';
-const database = '[YOURMONGODATABASE]';
+const password = process.env.SPOTIFY_MONGO_PASSWORD;
+const database = process.env.SPOTIFY_MONGO_DATABASE;
 
 const uri = `mongodb+srv://${database}:${password}@cluster0.ihflv.mongodb.net/${database}?retryWrites=true&w=majority`;
 
 let db = undefined;
-
 
 
 /**
@@ -36,8 +35,10 @@ exports.connectMongo = async function (successCallback) {
 
     db = mongoose.connection;
 
-    db.on('error', () => {
+    db.on('error', (err) => {
       console.error.bind(console, 'connection error:');
+      console.log(err);
+      console.log(uri);
       reject('connection error');
     });
 

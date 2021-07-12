@@ -58,7 +58,7 @@ describe('Create User', () => {
             });
     }).timeout(TIMEOUT);
 
-    it('Should return 403 when creating a user that already exist', (done) => {
+    it('Should return 500 when creating a user that already exist', (done) => {
         const url = `${BASE_URL}/database/user`;
         chai.request(url)
             .post('/')
@@ -67,8 +67,7 @@ describe('Create User', () => {
                 password: USER.exist.password,
             })
             .end(function (err, res) {
-                expect(res).to.have.status(403);
-                res.body.should.have.keys('code', 'message');
+                expect(res).to.have.status(500);
                 done();
             });
     }).timeout(TIMEOUT);

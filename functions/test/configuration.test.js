@@ -1,6 +1,7 @@
 global.TIMEOUT = 10000;
-global.BASE_URL = `http://localhost:5001/spotify-egcch/us-central1/api/v1`;
-global.EXPIRED_TOKEN = 'your-expired-access_token';
+global.BASE_URL = process.env.SPOTIFY_API;
+global.EXPIRED_TOKEN = process.env.SPOTIFY_EXPIRED_TOKEN;
+
 global.USER = {
 
   exist: {
