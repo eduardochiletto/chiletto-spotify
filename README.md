@@ -40,7 +40,7 @@
 
 ## Project Structure
 
-*****The entire project contains the following folder structure:*****
+*****The project contains the following folder structure:*****
 
 ```text
 app
