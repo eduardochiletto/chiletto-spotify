@@ -65,14 +65,13 @@ Each one has its own package.json as they are separated projects. *App* is the w
 **1. Spotify Config**
 
 1. Create an app on the [Spotify developers page](https://developer.spotify.com/dashboard/login) to get your `client_id` and `client_secret`; 
-2. Open [spotify-lib.js](https://github.com/eduardochiletto/chiletto-spotify/blob/main/functions/api/spotify-lib.js) file and set your `client_id` and `client_secret`.
-
+2. Open [spotify-lib.js](https://github.com/eduardochiletto/chiletto-spotify/blob/main/functions/api/spotify-lib.js) file and set your `client_id` and `client_secret`;
+3. You need set your callback domain as well.
 
 **2. MongoDB**
 
 1. Create or access your [MongoDB](https://cloud.mongodb.com/) account and configure a database to use in this project. Relax. You can use the free account 😉; 
-2. Insert your password and your database name in the [connection.js](https://github.com/eduardochiletto/chiletto-spotify/blob/main/functions/api/orm/connection.js) file; 
-3. You need set your callback domain as well.
+2. Insert your password and your database name in the [connection.js](https://github.com/eduardochiletto/chiletto-spotify/blob/main/functions/api/orm/connection.js) file.
 
 **3. Firebase**
 
