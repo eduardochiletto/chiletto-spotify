@@ -82,15 +82,17 @@ Each one has its own package.json as they are separated projects. *App* is the w
 * Create a `launch.json` file in the *.vscode* folder and configure it like this:
 
 ```json
-"version": "0.2.0",
-"configurations": [
-	{
-		"type": "node",
-		"request": "attach",
-		"name": "Firebase Functions",
-		"port": 9229,
-	},
-]}
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "node",
+			"request": "attach",
+			"name": "Firebase Functions",
+			"port": 9229,
+		},
+	]}
+}
 ```
 
 <br />
