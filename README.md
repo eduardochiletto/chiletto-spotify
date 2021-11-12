@@ -5,7 +5,7 @@
 
 <br />
 
-##### Demo: https://spotify-egcch.web.app/
+##### Demo: https://spotify.chiletto.com.br/
 
 ##### Technical documentation: https://chiletto-jsdoc.web.app/
 
